@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrissy Martin's Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+         .banner
+        {
+          position: relative;
+          top: 0;
+          left: 0;
+        }
+        .photo
+        {
+            position: absolute;
+            top: 210px;
+            right:210px;
+            width:300px;
+            height: 300px;
+        }
+      </style>
+</head>
+<body>
+    <div class="banner">
+    <nav> 
+      <h1 class="title"><a href="./index.html">Chrissy Martin</a></h1>  
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <img class="photo" src="resources/images/smile2.jpg" alt="Chrissy" width="10" height="10">
+    </div>
+<main>
+    <section id="about-me">
+        <div class="about-me-container">
+            <div class="about-me-text-container">
+                <div class="banner-2">
+                <h2>About Me</h2>
+                </div>
+                <br>
+                <p>Hello! My name is Chrissy Martin. 
+                <br>I am an animal care professional currently learning full stack engineering in the hopes of switching careers. 
+                <br>In my spare time, you can find me at a local coffee shop or at home with my 2 cats.</p>
+                <img class="photo-2" src="resources/images/C+E2.jpg" alt="Chrissy with Ed, Gray seal" width="300" height="350">
+                
+                <hr/>
+                
+                <div class="facts-display">
+                        <p id="fact">Get to know Chrissy!</p>
+                </div>
+                     <button onclick="factSelector()" id="btn">Fun Facts About Chrissy</button>
+                     <script src="index.js"></script> 
+            </div>
+    </section>
+    <section id="projects">
+        <div class="banner-3">
+        <h2>Projects</h2>
+        </div>
+
+        <br>
+        <details class="project">
+            <summary class="project-title">
+                <h3>Drawing Prompt Randomizer</h3>
+            </summary>
+            <a href="https://github.com/chrissy-martin/MixedMessages-DrawingPrompt" target="_blank">
+            <img class="project-image" src="resources/images/drawing-prompt-leader.png">
+            </a>
+            <p class="project-description">This is a program that will create a randomized drawing prompt.
+                The following features are included in the prompt to promote ideas for drawing and story telling:
+                <br>-Genre 
+                <br>-Species
+                <br>-Personality Trait
+                <br>-Artistic Style</p>
+        </details>
+
+        <br>
+        <details class="project">
+            <summary class="project-title">
+                <h3>Coming Soon: Reddit App</h3>
+            </summary>
+            <a>
+                <img class="project-image" src="resources/images/reddit.jpg">  
+            </a>
+            <p class="project-description"> This will be a personalized Reddit App using API</p>
+        </details>
+
+        <br>
+        <details class="project">
+            <summary class="project-title">
+                <h3>Coming Soon: E-Commerce App</h3>
+            </summary>
+            <img class="project-image" src="resources/images/e-commerce app.jpg">
+            <p class="project-description">This will be an e-commerce app (REST API)</p>
+        </details>
+
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="skills">
+        <div class="banner-4">
+        <h2>Skills</h2>
+        </div>
+
+        <br>
+        <div id="skills-container">
+          <i class="fab fa-html5"></i> 
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fab fa-github"></i>
+        </div>
+    </section>
+
+<br>
+</main>
+<footer>    
+    <p>Chrissy Martin's Portfolio Page 2022</p>
+</footer>
+</body>
+</html>
+
+

@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  color: var(--font-color);
+  background-color: #e7feff;
+}
+
+:root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+  
+    --border-radius: 12px;
+  
+  }
+  
+
+.title a {
+  position: absolute;
+  top: 340px;
+  left: 450px;
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  margin-bottom: var(--spacing-2);
+  color: #fff000;
+  font-size: 50px;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0 var(--spacing-3);
+  max-width: 1800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#about-me h2 {
+    color: #fff000;
+    display:flex;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+#projects h2 {
+  color: #fff000;
+  display:flex;
+  font-size: 3em;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
+}
+#skills h2 {
+  color: #fff000;
+  display:flex;
+  font-size: 3em;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
+}
+
+.banner {
+    background-size: cover;
+    background-image: url('https://images.freeimages.com/images/large-previews/68c/free-background-magenta-1639348.jpg');
+}
+
+nav {    
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+    margin-bottom: 650px;
+
+  }
+  
+  .navigation-items {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: auto;
+    position:fixed;
+    overflow-x:hidden;
+  }
+  
+  .navigation-item {
+    padding-left: 3.5rem;
+  }
+
+.photo {
+   background-size: cover;
+    background-position: center;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+}
+
+.banner-2 {
+  background-size: cover;
+  height: 75px;
+  background-image: url('https://images.freeimages.com/images/large-previews/68c/free-background-magenta-1639348.jpg');
+}
+
+.photo-2 {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  margin-left: 585px;
+ }
+
+.about-me-text-container {
+  margin-right: var(--spacing-3);
+  font-size: x-large; 
+  font-family:'Courier New', Courier, monospace;
+  color: darkslategrey;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #c71585;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #800080;}
+  
+  button:active {
+    background-color: #cf71af;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .facts-display {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      border-radius: 30px;
+      width: 600px;
+      background-color: rgba(255, 255, 255, 0.3);
+      margin-left: 400px;
+      margin-bottom: 90px;
+      margin-top: 80px;
+  }
+  
+  
+  #fact {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.project-image {
+  height: 400px;
+  width: 500px;
+}
+
+.project-description {
+  color: darkslategray;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.banner-3 {
+    background-size: cover;
+    height: 75px;
+    bottom: 50px;
+    background-image: url('https://images.freeimages.com/images/large-previews/68c/free-background-magenta-1639348.jpg');
+}
+
+.project-title h3 {
+  display: inline;
+  font-size: 2em;
+}
+
+details {
+  cursor: pointer;
+}
+
+hr {
+  display: none;
+}
+
+summary {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+footer {
+  width: 100%;
+  background-color: #85ccd0;
+  font-size: 0.8rem;
+  height: 10vh;
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkslategrey;
+
+}
+
+section {
+  padding: var(--spacing-3) 0;
+}
+
+#Contact h2 {
+  color: #ff1493;
+  display:flex;
+  font-size: 3em;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#Contact p {
+  color:#ff1493;
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.icon {
+  font-size: 2em;
+  color: #c71585;
+  margin: 0 var(--spacing-1);
+}
+
+
+a {
+  color: #ff1493;
+  text-decoration: none;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.banner-4 {
+    background-size: cover;
+    height: 75px;
+    background-image: url('https://images.freeimages.com/images/large-previews/68c/free-background-magenta-1639348.jpg');
+}
+
+#skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #c71585;
+  font-size: 2em;
+}
+
+#skills-container > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: var(--spacing-1);
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+}
